@@ -60,7 +60,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" href="index.html"
                                     >Home
                                     <span class="sr-only">(current)</span>
@@ -81,7 +81,7 @@
                                     >Contact Us</a
                                 >
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="education.html"
                                     >Education</a
                                 >
@@ -99,23 +99,98 @@
                 <div class="banner-item-01">
                     <div class="text-content">
                         <h4>HIDROPONIK</h4>
-                        <h2>Kebun Kemaslahatan Umat</h2>
+                        <h2>education</h2>
                     </div>
                 </div>
                 <div class="banner-item-02">
                     <div class="text-content">
-                        <h4>BENEFITS</h4>
-                        <h2>Kebun yang bermanfaat</h2>
-                    </div>
-                </div>
-                <div class="banner-item-03">
-                    <div class="text-content">
-                        <h4>HIGH QUALITY</h4>
-                        <h2>Hasil panen berkualitas</h2>
+                        <h4>MAU TAU?</h4>
+                        <h2>yukk scroll</h2>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Banner Ends Here -->
+
+        <div class="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="filters">
+                            <ul>
+                                <li class="active" data-filter="*">
+                                    Education
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="filters-content">
+                            <div class="row grid">
+                                <div class="col-lg-4 col-md-4 all des">
+                                    <div class="product-item">
+                                        <a href="#"
+                                            ><img
+                                                src="assets/images/prodak/prodak_01.jpg"
+                                                alt=""
+                                        /></a>
+                                        <div class="down-content">
+                                            <a href="#"><h4>Pakcoy</h4></a>
+                                            <h6>Kindom</h6>
+                                            <p>Platae</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="inner-content">
+                            <p>
+                                <i class="fa fa-instagram"></i>
+                                <a
+                                    rel="nofollow noopener"
+                                    href="https://www.instagram.com/kebun_kemasalahatan_umat/"
+                                    target="_blank"
+                                    >Instagram</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Additional Scripts -->
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/owl.js"></script>
+        <script src="assets/js/slick.js"></script>
+        <script src="assets/js/isotope.js"></script>
+        <script src="assets/js/accordions.js"></script>
+
+        <script language="text/Javascript">
+            cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+            function clearField(t) {
+                //declaring the array outside of the
+                if (!cleared[t.id]) {
+                    // function makes it static and global
+                    cleared[t.id] = 1; // you could use true and false, but that's more typing
+                    t.value = ""; // with more chance of typos
+                    t.style.color = "#fff";
+                }
+            }
+        </script>
     </body>
 </html>
